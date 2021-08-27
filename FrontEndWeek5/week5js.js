@@ -12,6 +12,6 @@ class Employee {
 class Department {
     constructor(name) {
         this.name = name;
-        this.colleague = [];
+        this.colleagues = [];
     }
 }
