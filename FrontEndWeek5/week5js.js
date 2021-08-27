@@ -1,17 +1,17 @@
-class Player {
+class Employee {
     constuctor(name, position) {
         this.name = name;
         this.position = position;
     }
 
   describe(){
-    return `${this.name} plays ${this.position}.`;
+    return `${this.name} does ${this.position}.`;
   }
 }
 
-class Team {
+class Department {
     constructor(name) {
         this.name = name;
-        this.players = [];
+        this.colleague = [];
     }
 }
